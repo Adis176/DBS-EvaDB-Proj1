@@ -8,7 +8,7 @@
 * Dataset with unfinished sentences are considered as input, and corresponding outputs are provided too. Later, we check the labels (through sentiment analysis) whether they match with the generated text's labels or not.
 
 # Implementation:
-* All files in ‘/evadv_data/functions’ folder. 
+* All files in *‘/evadv_data/functions’* folder. 
 * Moreover, do not forget to set up the proper virtual environment in order to deploy Eva-DB properly, and then after you can execute the given .py files.
 * The Actual Function: Present in ‘tinyllama.py’ file where the Tiny-Llama model implementation that takes in a data-frame with the input string, and outputs the data-frame with the sentence generated, is present.
 * Initial inputs taken from: ‘data.csv’ file. For the current case-study, both inputs and outputs are passed, and the output generated will be compared with both the input and output in the dataset, to make sure the sentiment recognized is correct, or were there any more interpretations possible.
