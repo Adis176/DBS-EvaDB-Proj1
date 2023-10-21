@@ -10,7 +10,7 @@
 # Implementation:
 * All files in *‘/evadv_data/functions’* folder. 
 * Moreover, do not forget to set up the proper virtual environment in order to deploy Eva-DB properly, and then after you can execute the given .py files.
-* The Actual Function: Present in ### **"tinyllama.py"** file where the Tiny-Llama model implementation that takes in a data-frame with the input string, and outputs the data-frame with the sentence generated, is present.
+* The Actual Function: Present in ##**"tinyllama.py"** file where the Tiny-Llama model implementation that takes in a data-frame with the input string, and outputs the data-frame with the sentence generated, is present.
 * Initial inputs taken from: *"data.csv"* file. For the current case-study, both inputs and outputs are passed, and the output generated will be compared with both the input and output in the dataset, to make sure the sentiment recognized is correct, or were there any more interpretations possible.
 * Run the **"create.py"** file to run the local custom implementation of the Tiny-llama model. The outputs generated will be written in *"generated.csv"* file. If no such file is present, it will automatically create one. If such a file is present, it will be overwritten.
 * Then to get the labels (sentiment analysis output) for each entry, the **"exec.py"** file should be run. It takes input from the *"generated.csv"* file, and then writes each corresponding text, along with its particular label-sentiment analysis in the "ans.csv" file. If no such file is present, it will automatically create one. If such a file is present, it will be overwritten.
